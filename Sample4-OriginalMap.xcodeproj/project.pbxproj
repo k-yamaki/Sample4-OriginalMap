@@ -11,6 +11,8 @@
 		AEAE14BA25A432A60037DC76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE14B925A432A60037DC76 /* ContentView.swift */; };
 		AEAE14BC25A432AA0037DC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEAE14BB25A432AA0037DC76 /* Assets.xcassets */; };
 		AEAE14BF25A432AA0037DC76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEAE14BE25A432AA0037DC76 /* Preview Assets.xcassets */; };
+		AEAE14C825A433F30037DC76 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE14C725A433F30037DC76 /* MapView.swift */; };
+		AEAE14CB25A438850037DC76 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE14CA25A438850037DC76 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AEAE14BB25A432AA0037DC76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEAE14BE25A432AA0037DC76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEAE14C025A432AA0037DC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEAE14C725A433F30037DC76 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AEAE14CA25A438850037DC76 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				AEAE14B725A432A60037DC76 /* Sample4_OriginalMapApp.swift */,
 				AEAE14B925A432A60037DC76 /* ContentView.swift */,
+				AEAE14C725A433F30037DC76 /* MapView.swift */,
+				AEAE14CA25A438850037DC76 /* LocationManager.swift */,
 				AEAE14BB25A432AA0037DC76 /* Assets.xcassets */,
 				AEAE14C025A432AA0037DC76 /* Info.plist */,
 				AEAE14BD25A432AA0037DC76 /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEAE14CB25A438850037DC76 /* LocationManager.swift in Sources */,
 				AEAE14BA25A432A60037DC76 /* ContentView.swift in Sources */,
+				AEAE14C825A433F30037DC76 /* MapView.swift in Sources */,
 				AEAE14B825A432A60037DC76 /* Sample4_OriginalMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
