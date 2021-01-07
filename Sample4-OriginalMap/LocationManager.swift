@@ -3,7 +3,7 @@
 //  Sample4-OriginalMap
 //
 //  Created by keiji yamaki on 2021/01/05.
-//
+//  ロケーション情報を扱う構造体
 
 import Foundation
 import CoreLocation

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE59552425A6C45F00F468D2 /* MySpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE59552325A6C45F00F468D2 /* MySpot.swift */; };
 		AEAE14B825A432A60037DC76 /* Sample4_OriginalMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE14B725A432A60037DC76 /* Sample4_OriginalMapApp.swift */; };
 		AEAE14BA25A432A60037DC76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE14B925A432A60037DC76 /* ContentView.swift */; };
 		AEAE14BC25A432AA0037DC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEAE14BB25A432AA0037DC76 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE59552325A6C45F00F468D2 /* MySpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpot.swift; sourceTree = "<group>"; };
 		AEAE14B425A432A60037DC76 /* Sample4-OriginalMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample4-OriginalMap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAE14B725A432A60037DC76 /* Sample4_OriginalMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample4_OriginalMapApp.swift; sourceTree = "<group>"; };
 		AEAE14B925A432A60037DC76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				AEAE14B925A432A60037DC76 /* ContentView.swift */,
 				AEAE14C725A433F30037DC76 /* MapView.swift */,
 				AEAE14CA25A438850037DC76 /* LocationManager.swift */,
+				AE59552325A6C45F00F468D2 /* MySpot.swift */,
 				AEAE14BB25A432AA0037DC76 /* Assets.xcassets */,
 				AEAE14C025A432AA0037DC76 /* Info.plist */,
 				AEAE14BD25A432AA0037DC76 /* Preview Content */,
@@ -147,6 +150,7 @@
 				AEAE14CB25A438850037DC76 /* LocationManager.swift in Sources */,
 				AEAE14BA25A432A60037DC76 /* ContentView.swift in Sources */,
 				AEAE14C825A433F30037DC76 /* MapView.swift in Sources */,
+				AE59552425A6C45F00F468D2 /* MySpot.swift in Sources */,
 				AEAE14B825A432A60037DC76 /* Sample4_OriginalMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,9 +279,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Sample4-OriginalMap/Preview Content\"";
-				DEVELOPMENT_TEAM = 23ZV8F4UCV;
+				DEVELOPMENT_TEAM = ZR3YSQ33BM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Sample4-OriginalMap/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -285,8 +290,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hiroshimamm.keiji.yamaki.Sample4-OriginalMap";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hiroshimamm.keiji.yamaki.Sample4-OriginalMap20210106";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,9 +303,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Sample4-OriginalMap/Preview Content\"";
-				DEVELOPMENT_TEAM = 23ZV8F4UCV;
+				DEVELOPMENT_TEAM = ZR3YSQ33BM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Sample4-OriginalMap/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -307,8 +314,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hiroshimamm.keiji.yamaki.Sample4-OriginalMap";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hiroshimamm.keiji.yamaki.Sample4-OriginalMap20210106";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
